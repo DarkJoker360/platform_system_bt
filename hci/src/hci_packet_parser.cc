@@ -29,6 +29,8 @@
 
 #include <cutils/properties.h>
 
+#define PROPERTY_VALUE_MAX 92
+
 static const command_opcode_t NO_OPCODE_CHECKING = 0;
 
 static const allocator_t* buffer_allocator;
